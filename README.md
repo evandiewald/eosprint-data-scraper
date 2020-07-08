@@ -48,6 +48,6 @@ The exporting format is a point of further development (please feel free to subm
 
 The format of `exposure_parameters.csv` is the following:
 
-![exposure parameters](/images/process-settings-csv.PNG)
+![exposure parameters](/images/exposure-settings-csv.PNG)
 
 For each parameter set, there are rows corresponding to the different exposure patterns (in this case, "hatch", "infill", "upskin", "downskin", "contour" (x2), & "edge").
