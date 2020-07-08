@@ -51,3 +51,7 @@ The format of `exposure_parameters.csv` is the following:
 ![exposure parameters](/images/exposure-settings-csv.PNG)
 
 For each parameter set, there are rows corresponding to the different exposure patterns (in this case, "hatch", "infill", "upskin", "downskin", "contour" (x2), & "edge").
+
+## Manual Recalibration (if necessary)
+
+Because the code is still in development, I've also included a [very simple script](get_mouse_position.py) that I used to get my cursor position on the screen. When running `get_mouse_position.py`, you get a 5-second delay to place your cursor where you need it on the EOSPRINT window, and this XY position in pixels will be printed to the console. You can use this to recalibrate the existing positions used by PyAutoGUI or add additional processing steps. 
